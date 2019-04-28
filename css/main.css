@@ -1,13 +1,64 @@
 body {
+
 	font-family: 'Merriweather', serif;
 }
+/*resuable css*/
+
+
+.btn-small-light {
+	font-size:12px;
+	text-decoration:none;
+	color:#fff;
+	padding:10px 30px 10px 30px;
+	border:2px solid #fff;
+	border-radius:10px;
+	margin-left:20px;
+}
+
+.btn-small-light:hover {
+	color:#701313;
+	background-color:#fff;	
+}
+
+.btn-small-dark {
+	font-size:12px;
+	color:#701313;
+	text-decoration:none;
+	padding:10px 30px 10px 30px;
+	border:2px solid #701313;
+	border-radius:10px;
+	margin-left:20px;
+}
+
+.btn-small-dark:hover {
+	color:#fff;
+	background-color:#701313;	
+}
+
+.btn-medium-dark {
+	font-size:13px;
+	color:#701313;
+	text-decoration:none;
+	padding:10px 40px 10px 40px;
+	border:2px solid #701313;
+	border-radius:10px;
+	/*margin-left:20px;*/
+}
+
+.btn-medium-dark:hover {
+	color:#fff;
+	background-color:#701313;	
+}
+
+/*reusable css end*/
+
 
 #headerWrapper {
 	background-color:#701313;
 	height:70px;
 	width:100%;
 	display: grid;
-	grid-template-columns: 20% auto;
+	grid-template-columns: fit-content(20%) auto;
 
 }
 
@@ -21,28 +72,48 @@ body {
 	padding:10px;
 }
 
-#navLink a {
+#link{
 	font-size:12px;
 	text-decoration:none;
 	color:#fff;
 }
 
-#navLink a:hover {
+#link:hover {
+
 	color:#707070;
 }
 
-.btn-light {
-	padding:10px 30px 10px 30px;
-	border:2px solid #fff;
-	border-radius:10px;
-	margin-left:20px;
-}
-
-.btn-light:hover {
-	background-color:#fff;	
-}
-
-.logo-small {
+#logo {
 	margin-left:70px;
 	padding:10px;
 }
+
+#hero {
+	display: grid;
+	grid-template-columns: fit-content(50%) 50%;
+}
+
+#content {
+	text-align:left;
+	padding: 150px 10px 150px 50px;
+}
+
+#content h1 {
+	font-size:40px;
+	font-weight:bold;
+	color:#701313;
+	padding-bottom:20px;
+}
+
+#content p {
+	font-size:17px;
+	font-weight:normal;
+	color:#707070;
+	padding-bottom:20px;
+	padding-left:5px;
+}
+
+#heroImage {
+	padding:100px 10px 10px 10px;
+}
+
