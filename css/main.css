@@ -1,0 +1,38 @@
+#headerWrapper {
+	background-color:#701313;
+	height:80px;
+	width:100%;
+	display: grid;
+	grid-template-columns: 20% auto;
+
+}
+
+#navbar {
+	margin:20px;
+	padding:20px auto;
+}
+
+#navLink {
+	float:right;
+	padding:10px;
+}
+
+#navLink a {
+	text-decoration:none;
+	color:#fff;
+}
+
+#navLink a:hover {
+	color:#707070;
+}
+
+.btn {
+	padding:10px 30px 10px 30px;
+	border:2px solid #fff;
+	border-radius:10px;
+	margin-left:20px;
+}
+
+.btn:hover {
+	background-color:#fff;	
+}
