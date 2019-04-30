@@ -2,8 +2,8 @@ body {
 
 	font-family: 'Merriweather', serif;
 }
-/*resuable css*/
 
+/*resuable css*/
 
 .btn-small-light {
 	font-size:12px;
@@ -55,7 +55,7 @@ body {
 
 #headerWrapper {
 	background-color:#701313;
-	height:70px;
+	height:60px;
 	width:100%;
 	display: grid;
 	grid-template-columns: fit-content(20%) auto;
@@ -69,7 +69,7 @@ body {
 
 #navLink {
 	float:right;
-	padding:10px;
+	padding:5px;
 }
 
 #link{
@@ -85,7 +85,7 @@ body {
 
 #logo {
 	margin-left:70px;
-	padding:10px;
+	padding:5px;
 }
 
 #hero {
@@ -95,7 +95,7 @@ body {
 
 #content {
 	text-align:left;
-	padding: 150px 10px 150px 50px;
+	padding: 100px 10px 100px 100px;
 }
 
 #content h1 {
